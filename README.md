@@ -2,7 +2,11 @@
 
 En el script de ejemplo siguiente, crea y configura nuestro servidor web.
 
-<https://us-east-1.console.aws.amazon.com/cloud9/ide/6d52eb8b012a4bb99a722ac23102ab10>
+IDE
+<https://edgbarba.signin.aws.amazon.com/console>
+
+User01..20
+Conies2019
 
 ```bash
 #!/bin/bash
@@ -22,8 +26,6 @@ echo "<html><h1>Hola AWS</h1></html>" > /var/www/html/index.php
 
 ```bash
 git clone https://github.com/barpeed/AWS-Core-Services.git
-
-
 
 chmod 400 ImmersionDayCoreServices.pem
 
