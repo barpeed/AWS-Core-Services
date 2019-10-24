@@ -2,7 +2,6 @@
 
 En el script de ejemplo siguiente, crea y configura nuestro servidor web.
 
-
 ```bash
 #!/bin/bash
 yum update -y
@@ -15,5 +14,9 @@ chown -R ec2-user:apache /var/www
 chmod 2775 /var/www
 find /var/www -type d -exec chmod 2775 {} \;
 find /var/www -type f -exec chmod 0664 {} \;
-echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
-````
+echo "<?php phpinfo(); ?>" > /var/www/html/
+```
+
+```bash
+chmod 400 ImmersionDayCoreServices.pem
+```
